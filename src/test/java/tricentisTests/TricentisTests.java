@@ -48,6 +48,7 @@ public class TricentisTests extends BasePage {
 		return errObj;
 	}
 
+	//Global variable - i use this to check if cart has any items on some tests.
 	int expectedCartValue = 1;
 
 	// For readability, i will use Gherkin syntax to explain my tests, but will keep
@@ -142,15 +143,15 @@ public class TricentisTests extends BasePage {
 	 */
 	@Test
 	public void GivenItemAddedToCartRemoveItemAndAssertConfirmationText() throws InterruptedException {
-			homepg.goHome();
-			homepg.clickApparelAndShoes();
-			apparelpg.AddOnGenuineLeatherToCart();
-			homepg.GoToCart();
-			cartpg.ClickRemoveFromCart();
-			cartpg.ClickUpdateCart();
+		homepg.goHome();
+		homepg.clickApparelAndShoes();
+		apparelpg.AddOnGenuineLeatherToCart();
+		homepg.GoToCart();
+		cartpg.ClickRemoveFromCart();
+		cartpg.ClickUpdateCart();
 
-			Reporter.log(cartpg.CheckElementTextCartEmpty());
-		}
+		Reporter.log(cartpg.CheckElementTextCartEmpty());
+	}
 
 	/*
 	 * User Story 5: GIVEN UserIsOnTricentisHomePage AND
@@ -160,10 +161,10 @@ public class TricentisTests extends BasePage {
 	@Test
 	public void GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned()
 			throws InterruptedException {
+		int cartValue = homepg.GetTextOfCartQty();
 		String ExpectedShippingText = "Ground (0.00)";
 		String NewQty = "5";
 		String zipCode = "1234";
-		int cartValue = homepg.GetTextOfCartQty();
 
 		if (cartValue >= expectedCartValue) {
 			homepg.GoToCart();

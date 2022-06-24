@@ -6,7 +6,7 @@
       <class name="tricentisTests.TricentisTests">
         <methods>
           <include name="CleanUp"/>
-          <include name="GivenItemAddedToCartRemoveItemAndAssertConfirmationText"/>
+          <include name="GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet" invocation-numbers="0"/>
         </methods>
       </class> <!-- tricentisTests.TricentisTests -->
     </classes>
