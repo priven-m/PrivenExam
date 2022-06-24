@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The price for the Blue and Green Sneakers is : 17.56]]>
+    </line>
+    <line>
+      <![CDATA[The price for the Green and blue Sneakers is : 11.00]]>
+    </line>
+    <line>
+      <![CDATA[Your Shopping Cart is empty!]]>
+    </line>
+    <line>
+      <![CDATA[The updated Subtotal for the product is: R 6360.00]]>
+    </line>
+    <line>
+      <![CDATA[The expected text is: Next Day Air (0.00)]]>
+    </line>
+    <line>
+      <![CDATA[The returned text is: Next Day Air (0.00)]]>
+    </line>
+    <line>
+      <![CDATA[Item added to cart is: 14.1-inch Laptop]]>
+    </line>
+    <line>
+      <![CDATA[Item added to cart is: Smartphone]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-22T13:38:05 SAST" name="Exam" finished-at="2022-06-22T13:38:53 SAST" duration-ms="47116">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T13:38:05 SAST" name="Exam" finished-at="2022-06-22T13:38:53 SAST" duration-ms="47116">
+      <class name="tricentisTests.TricentisTests">
+        <test-method signature="AddToCpmareListAndValidateAmountsAreCorrect()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:05 SAST" name="AddToCpmareListAndValidateAmountsAreCorrect" finished-at="2022-06-22T13:38:28 SAST" duration-ms="22193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The price for the Blue and Green Sneakers is : 17.56]]>
+            </line>
+            <line>
+              <![CDATA[The price for the Green and blue Sneakers is : 11.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCpmareListAndValidateAmountsAreCorrect -->
+        <test-method signature="GIVEN_LeatherHandBagAddedToCart_AND_UserNavigatesToCart_WHEN_SelectsItemTickBox_AND_UpdateShoppingCart_THEN_ItemRemoved()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:28 SAST" name="GIVEN_LeatherHandBagAddedToCart_AND_UserNavigatesToCart_WHEN_SelectsItemTickBox_AND_UpdateShoppingCart_THEN_ItemRemoved" finished-at="2022-06-22T13:38:32 SAST" duration-ms="3916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Your Shopping Cart is empty!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_LeatherHandBagAddedToCart_AND_UserNavigatesToCart_WHEN_SelectsItemTickBox_AND_UpdateShoppingCart_THEN_ItemRemoved -->
+        <test-method signature="GIVEN_NoteBookAddedToCart_AND_UserNavigatesToCart_WHEN_ClicksOnQuantity_AND_AmendQty_THEN_TotalAmtChanges(java.lang.String)[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:32 SAST" name="GIVEN_NoteBookAddedToCart_AND_UserNavigatesToCart_WHEN_ClicksOnQuantity_AND_AmendQty_THEN_TotalAmtChanges" data-provider="UpdateNotebooksQuantityInCart" finished-at="2022-06-22T13:38:37 SAST" duration-ms="4895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The updated Subtotal for the product is: R 6360.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_NoteBookAddedToCart_AND_UserNavigatesToCart_WHEN_ClicksOnQuantity_AND_AmendQty_THEN_TotalAmtChanges -->
+        <test-method signature="GIVEN_UserIsOnTricentisHomePage_AND_SuccessfullyAdds5SimpleComputersToCart_AND_EnterShippingDetails_THEN_EstimatedShippingReturned()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:37 SAST" name="GIVEN_UserIsOnTricentisHomePage_AND_SuccessfullyAdds5SimpleComputersToCart_AND_EnterShippingDetails_THEN_EstimatedShippingReturned" finished-at="2022-06-22T13:38:43 SAST" duration-ms="5675" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The expected text is: Next Day Air (0.00)]]>
+            </line>
+            <line>
+              <![CDATA[The returned text is: Next Day Air (0.00)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_UserIsOnTricentisHomePage_AND_SuccessfullyAdds5SimpleComputersToCart_AND_EnterShippingDetails_THEN_EstimatedShippingReturned -->
+        <test-method signature="GIVEN_UserIsOnTricentisSite_AND_ClicksOnComputersUnderCategories_WHEN_ClicksOnNotebooks_AND_ClicksaddToCartOn14InchLaptop_THEN_ItemDisplayedInCart14InchLaptop()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:43 SAST" name="GIVEN_UserIsOnTricentisSite_AND_ClicksOnComputersUnderCategories_WHEN_ClicksOnNotebooks_AND_ClicksaddToCartOn14InchLaptop_THEN_ItemDisplayedInCart14InchLaptop" finished-at="2022-06-22T13:38:46 SAST" duration-ms="3547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item added to cart is: 14.1-inch Laptop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_UserIsOnTricentisSite_AND_ClicksOnComputersUnderCategories_WHEN_ClicksOnNotebooks_AND_ClicksaddToCartOn14InchLaptop_THEN_ItemDisplayedInCart14InchLaptop -->
+        <test-method signature="GIVEN_UserIsOnTricentisSite_AND_SuccessfullyFindsCellphoneUnderElectronicsMenuItem_WHEN_UserSelectsCellphones_AND_AddsSmartPhoneToCart_THEN_ItemDisplayedInCartWillBeSmartPhone()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:46 SAST" name="GIVEN_UserIsOnTricentisSite_AND_SuccessfullyFindsCellphoneUnderElectronicsMenuItem_WHEN_UserSelectsCellphones_AND_AddsSmartPhoneToCart_THEN_ItemDisplayedInCartWillBeSmartPhone" finished-at="2022-06-22T13:38:52 SAST" duration-ms="6084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item added to cart is: Smartphone]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_UserIsOnTricentisSite_AND_SuccessfullyFindsCellphoneUnderElectronicsMenuItem_WHEN_UserSelectsCellphones_AND_AddsSmartPhoneToCart_THEN_ItemDisplayedInCartWillBeSmartPhone -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:tricentisTests.TricentisTests@51a06cbe]" started-at="2022-06-22T13:38:52 SAST" name="CleanUp" finished-at="2022-06-22T13:38:53 SAST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- tricentisTests.TricentisTests -->
+    </test> <!-- Exam -->
+  </suite> <!-- Exam -->
+</testng-results>

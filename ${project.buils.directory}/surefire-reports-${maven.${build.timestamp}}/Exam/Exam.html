@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>TestNG:  Exam</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Exam</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 22 13:38:05 SAST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47116 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GIVEN_UserIsOnTricentisHomePage_AND_SuccessfullyAdds5SimpleComputersToCart_AND_EnterShippingDetails_THEN_EstimatedShippingReturned()'><b>GIVEN_UserIsOnTricentisHomePage_AND_SuccessfullyAdds5SimpleComputersToCart_AND_EnterShippingDetails_THEN_EstimatedShippingReturned</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-658135690" onClick='toggleBox("Output-658135690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-658135690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-658135690">
+The expected text is: Next Day Air (0.00)<br/>
+The returned text is: Next Day Air (0.00)<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GIVEN_UserIsOnTricentisSite_AND_ClicksOnComputersUnderCategories_WHEN_ClicksOnNotebooks_AND_ClicksaddToCartOn14InchLaptop_THEN_ItemDisplayedInCart14InchLaptop()'><b>GIVEN_UserIsOnTricentisSite_AND_ClicksOnComputersUnderCategories_WHEN_ClicksOnNotebooks_AND_ClicksaddToCartOn14InchLaptop_THEN_ItemDisplayedInCart14InchLaptop</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-875456779" onClick='toggleBox("Output-875456779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-875456779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-875456779">
+Item added to cart is: 14.1-inch Laptop<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.AddToCpmareListAndValidateAmountsAreCorrect()'><b>AddToCpmareListAndValidateAmountsAreCorrect</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-906347731" onClick='toggleBox("Output-906347731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-906347731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-906347731">
+The price for the Blue and Green Sneakers is : 17.56<br/>
+The price for the Green and blue Sneakers is : 11.00<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GIVEN_NoteBookAddedToCart_AND_UserNavigatesToCart_WHEN_ClicksOnQuantity_AND_AmendQty_THEN_TotalAmtChanges()'><b>GIVEN_NoteBookAddedToCart_AND_UserNavigatesToCart_WHEN_ClicksOnQuantity_AND_AmendQty_THEN_TotalAmtChanges</b><br>Test class: tricentisTests.TricentisTests<br>Parameters: 4<br/>
+<a href="#Output-1223979324" onClick='toggleBox("Output-1223979324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223979324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223979324">
+The updated Subtotal for the product is: R 6360.00<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GIVEN_UserIsOnTricentisSite_AND_SuccessfullyFindsCellphoneUnderElectronicsMenuItem_WHEN_UserSelectsCellphones_AND_AddsSmartPhoneToCart_THEN_ItemDisplayedInCartWillBeSmartPhone()'><b>GIVEN_UserIsOnTricentisSite_AND_SuccessfullyFindsCellphoneUnderElectronicsMenuItem_WHEN_UserSelectsCellphones_AND_AddsSmartPhoneToCart_THEN_ItemDisplayedInCartWillBeSmartPhone</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-704832331" onClick='toggleBox("Output-704832331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-704832331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-704832331">
+Item added to cart is: Smartphone<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GIVEN_LeatherHandBagAddedToCart_AND_UserNavigatesToCart_WHEN_SelectsItemTickBox_AND_UpdateShoppingCart_THEN_ItemRemoved()'><b>GIVEN_LeatherHandBagAddedToCart_AND_UserNavigatesToCart_WHEN_SelectsItemTickBox_AND_UpdateShoppingCart_THEN_ItemRemoved</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-739703515" onClick='toggleBox("Output-739703515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-739703515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-739703515">
+Your Shopping Cart is empty!<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tricentisTests.TricentisTests@51a06cbe</td></tr>
+</table><p>
+</body>
+</html>

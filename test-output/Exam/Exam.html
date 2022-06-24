@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Exam</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Exam</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 24 18:59:54 SAST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21336 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tricentisTests.TricentisTests.AddItemToCartAndAssertTextOfItemAddedInCartIs14InchLaptop()'><b>AddItemToCartAndAssertTextOfItemAddedInCartIs14InchLaptop</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-118881143" onClick='toggleBox("Output-118881143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-118881143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118881143">
+Notebook in the cart is a 14.1-inch Laptop<br/>
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned()'><b>GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-1687586610" onClick='toggleBox("Output-1687586610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687586610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687586610">
+The expected text is: Ground (0.00)<br/>
+The returned text is: Next Day Air (0.00)<br/>
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.AddToTwoItemsToCompareListAndValidateAmountsAreNotequal()'><b>AddToTwoItemsToCompareListAndValidateAmountsAreNotequal</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-826690115" onClick='toggleBox("Output-826690115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-826690115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-826690115">
+The price for the Blue and Green Sneakers is : 17.56<br/>
+The price for the Green and blue Sneakers is : 11.00<br/>
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GivenItemAddedToCartRemoveItemAndAssertConfirmationText()'><b>GivenItemAddedToCartRemoveItemAndAssertConfirmationText</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-1422883946" onClick='toggleBox("Output-1422883946", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1422883946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1422883946">
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.AddItemToCartAndAssertTextOfItemAddedIsSmartPhone()'><b>AddItemToCartAndAssertTextOfItemAddedIsSmartPhone</b><br>Test class: tricentisTests.TricentisTests<br/>
+<a href="#Output-1175154004" onClick='toggleBox("Output-1175154004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1175154004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1175154004">
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+<tr>
+<td title='tricentisTests.TricentisTests.GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet()'><b>GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet</b><br>Test class: tricentisTests.TricentisTests<br>Parameters: 4<br/>
+<a href="#Output-545392109" onClick='toggleBox("Output-545392109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-545392109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-545392109">
+Current amount in cart is R 6360.00<br/>
+The updated Subtotal for the product is: R 6360.00<br/>
+<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png' height='200' width='200'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tricentisTests.TricentisTests@5cbf9e9f</td></tr>
+</table><p>
+</body>
+</html>

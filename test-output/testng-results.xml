@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Notebook in the cart is a 14.1-inch Laptop]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png' height='200' width='200'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png' height='200' width='200'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The price for the Blue and Green Sneakers is : 17.56]]>
+    </line>
+    <line>
+      <![CDATA[The price for the Green and blue Sneakers is : 11.00]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png' height='200' width='200'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The expected text is: Ground (0.00)]]>
+    </line>
+    <line>
+      <![CDATA[The returned text is: Next Day Air (0.00)]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png' height='200' width='200'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png' height='200' width='200'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Current amount in cart is R 6360.00]]>
+    </line>
+    <line>
+      <![CDATA[The updated Subtotal for the product is: R 6360.00]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png' height='200' width='200'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-24T18:59:54 SAST" name="Exam" finished-at="2022-06-24T19:00:15 SAST" duration-ms="21336">
+    <groups>
+    </groups>
+    <test started-at="2022-06-24T18:59:54 SAST" name="Exam" finished-at="2022-06-24T19:00:15 SAST" duration-ms="21336">
+      <class name="tricentisTests.TricentisTests">
+        <test-method signature="AddItemToCartAndAssertTextOfItemAddedInCartIs14InchLaptop()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T18:59:54 SAST" name="AddItemToCartAndAssertTextOfItemAddedInCartIs14InchLaptop" finished-at="2022-06-24T18:59:56 SAST" duration-ms="2817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Notebook in the cart is a 14.1-inch Laptop]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185956.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddItemToCartAndAssertTextOfItemAddedInCartIs14InchLaptop -->
+        <test-method signature="AddItemToCartAndAssertTextOfItemAddedIsSmartPhone()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T18:59:57 SAST" name="AddItemToCartAndAssertTextOfItemAddedIsSmartPhone" finished-at="2022-06-24T18:59:58 SAST" duration-ms="1335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success185958.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddItemToCartAndAssertTextOfItemAddedIsSmartPhone -->
+        <test-method signature="AddToTwoItemsToCompareListAndValidateAmountsAreNotequal()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T18:59:58 SAST" name="AddToTwoItemsToCompareListAndValidateAmountsAreNotequal" finished-at="2022-06-24T19:00:06 SAST" duration-ms="7495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The price for the Blue and Green Sneakers is : 17.56]]>
+            </line>
+            <line>
+              <![CDATA[The price for the Green and blue Sneakers is : 11.00]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190006.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToTwoItemsToCompareListAndValidateAmountsAreNotequal -->
+        <test-method signature="GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T19:00:06 SAST" name="GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned" finished-at="2022-06-24T19:00:10 SAST" duration-ms="3932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The expected text is: Ground (0.00)]]>
+            </line>
+            <line>
+              <![CDATA[The returned text is: Next Day Air (0.00)]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190010.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GivenItemAddedToCartEnterShippingDetailsEstimatedShippingTextStringIsReturned -->
+        <test-method signature="GivenItemAddedToCartRemoveItemAndAssertConfirmationText()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T19:00:10 SAST" name="GivenItemAddedToCartRemoveItemAndAssertConfirmationText" finished-at="2022-06-24T19:00:11 SAST" duration-ms="1177" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190011.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GivenItemAddedToCartRemoveItemAndAssertConfirmationText -->
+        <test-method signature="GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet(java.lang.String)[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T19:00:11 SAST" name="GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet" data-provider="UpdateNotebooksQuantityInCart" finished-at="2022-06-24T19:00:15 SAST" duration-ms="3260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Current amount in cart is R 6360.00]]>
+            </line>
+            <line>
+              <![CDATA[The updated Subtotal for the product is: R 6360.00]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png'> <img src='C:\autoProgram\PrivenExam\target\surefire-reports-20220624164908\ScreenShots\On test success190015.png' height='200' width='200'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GivenNotebookAddedToCartUpdateQuantityUsingExcelSheet -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:tricentisTests.TricentisTests@5cbf9e9f]" started-at="2022-06-24T19:00:15 SAST" name="CleanUp" finished-at="2022-06-24T19:00:15 SAST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- tricentisTests.TricentisTests -->
+    </test> <!-- Exam -->
+  </suite> <!-- Exam -->
+</testng-results>
